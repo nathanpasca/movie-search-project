@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.Movie-input {
+  margin-bottom: 30px;
+  height: 40px;
+  border-radius: 10px;
+  width: 300px;
+  padding: 3px;
+}
+
+.Movie-input::placeholder {
+  color: gray;
+  font-size: 15px;
+}
+
+.Movie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-direction: column;
+
+}
+
+.Movie-wrapper {
+  width: 500px;
+  border-radius: 10px;
+  background-color: rgb(48, 48, 46);
+}
+
+.Movie-desc {
+  text-align: justify;
+  padding: 10px;
+  color: white;
+}
+
+.Movie-title {
+  font-size: 25px;
+  padding: 6px;
+}
+
+.Movie-date {
+  font-size: 23px;
+  padding: 6px;
+  color: white;
+}
+
+.Movie-rate {
+  font-size: 23px;
+  padding: 6px;
+  color: white;
+}
+
+.Movie-image {
+  border-radius: 5px;
+}
